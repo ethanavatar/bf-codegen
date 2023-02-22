@@ -206,7 +206,7 @@ class Context:
 
         return new_val
 
-    def to_str(self) -> str:
+    def code(self) -> str:
         return self.output
 
 
